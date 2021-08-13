@@ -8,7 +8,6 @@ public class Odev21 {
         n = scan.nextInt();
         System.out.println("Üs olacak sayıyı giriniz");
         k = scan.nextInt();
-
         for(int i = 1; i<=k; i++){
             total *= n;
         }
