@@ -10,17 +10,17 @@ public class Main {
         System.out.print("Bir sayı giriniz : ");
         number = scan.nextInt();
         System.out.println("Girilen Sayı : "+number);
-        int smallClose = Integer.MIN_VALUE;
-        int bigClose = Integer.MAX_VALUE;
+        int justSmaller = Integer.MIN_VALUE;
+        int justGreater = Integer.MAX_VALUE;
         for (int i: arr) {
-            if(i < number && i > smallClose){
-                 smallClose = i;
+            if(i < number && i > justSmaller){
+                 justSmaller = i;
             }
-            if(i > number && i < bigClose){
-                bigClose = i;
+            if(i > number && i < justGreater){
+                justGreater = i;
             }
         }
-        System.out.println("Girilen sayıdan küçük en yakın sayı : "+smallClose);
-        System.out.println("Girilen sayıdan büyük en yakın sayı : "+bigClose);
+        System.out.println("Girilen sayıdan küçük en yakın sayı : "+ justSmaller);
+        System.out.println("Girilen sayıdan büyük en yakın sayı : "+ justGreater);
     }
 }
