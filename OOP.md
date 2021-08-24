@@ -20,3 +20,15 @@ Sistemin bu işlevleri yerine getirme mantığı, her gruplama için farklı ola
 
 Polimorfizm modelini kullanarak, yukarıda açıklanan durumu ele almak için bir sınıf diyagramı tasarlayın.
 ![diyagram2](https://github.com/merfrk/java101/blob/master/Untitled%20Diagram2.png)
+
+Uçuşların ve pilotların yönetimi için bir sistem tasarlayın.
+Hava yolu şirketleri uçuşları gerçekleştirir. Her hava yolunun bir kimliği vardır.
+Hava yolu şirketi, farklı tipteki uçaklara sahiptir.
+Uçaklar çalışır veya onarım durumunda olabilir.
+Her uçuşun benzersiz kimliği, kalkacağı ve ineceği havaalanı, kalkış ve iniş saatleri vardır.
+Her uçuşun bir pilotu ve yardımcı pilotu vardır ve uçağı kullanırlar.
+Havaalanlarının benzersiz kimlikleri ve isimleri vardır.
+Hava yolu şirketlerinin pilotları vardır ve her pilotun bir deneyim seviyesi mevcuttur.
+Bir uçak tipi, belirli sayıda pilota ihtiyaç duyabilir.
+Bu sistemi tasvir eden Class(Sınıf) diyagramını çiziniz.
+![diyagram3](https://github.com/merfrk/java101/blob/master/Untitled%20Diagram3.png)
